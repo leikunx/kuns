@@ -21,7 +21,6 @@ export default class App extends Component {
       <div className="container">
         <Search saveUsers={this.updataAppState}/>
         <List {...this.state}/>
-        <div>aaa</div>
       </div>
     )
   }
